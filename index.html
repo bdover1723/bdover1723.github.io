@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Waifu Generator</title>
+        <link type="text/css" href='style.css' rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="navigation-pane">
+            <a class = "nav-link" id="toggle" href="javascript:toggleMode();">nsfw</a>
+            <a class = "nav-link" id="about" href="">about</a>
+            <a class = "nav-link" id="settings" href="">settings</a>
+        </div>
+        <div class="body-content">
+            <div class="title">
+                <h1 id = "logo">Waifu Generator</h1>
+                <h4>The most powerful waifu generator on the internet. Period.</h4>
+            </div>
+            <div class='image' id='waifu-image'></div>
+            <input class="waifu-input" id="waifu-name"/>
+        </div>
+        <div class="button-container">
+            <button class="submit search-button" onclick="getSpecificImage()">Search</button>
+            <button class="random search-button" onclick="getRandomImage()">Random</button>
+            <button class="best search-button" onclick="getBest()">The Best</button>
+        </div>
+        <span id="status"></span>
+        <!-- <div class="blacklist">
+            <h2>BLACKLIST</h2>
+            <img width="212" height="300" src="assets/zerotwo.jpg">
+            <img width="212" height="300" src="assets/rimuru.jpg">
+            <img width="240" height="300" src="assets/shiro.jpg">
+        </div>
+        <div class="info">
+            <p>Waifu Generator is powered by state of the art blockchain technology</p>
+        </div> -->
+    </body>
+</html>
+
+<script src="index.js"></script>

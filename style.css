@@ -1,0 +1,131 @@
+html {
+    color: black;
+    background-color: white;
+    font-family: source-sans-pro,sans-serif;
+}
+
+.navigation-pane {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+.nav-link {
+    color: inherit;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: left;
+    cursor: pointer;
+    user-select: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.body-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#logo {
+    font-size: 50px;
+    letter-spacing: 7px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#waifu-image {
+    background-image: url("assets/yuno.png");
+    width: 100%;
+    height: 450px;
+    margin-bottom: 10px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.waifu-input {
+    color-scheme: light;
+    width: 800px;
+    max-width: 80%;
+    font-size: 20px;
+    outline: none;
+    text-align: left;
+    font-family: "Raleway";
+    padding: 5px 20px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 25%);
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.search-button {
+    color: white;
+    border-radius: 4px;
+    font-family: Roboto,arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 25px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: left;
+    cursor: pointer;
+    user-select: none;
+}
+
+.search-button:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.submit {
+    background-color: #60BCBB;
+    border: 1px solid #60BCBB;
+}
+
+.random {
+    background-color: #F6AEC3;
+    border: 1px solid #F6AEC3;
+}
+
+.best {
+    background-color: #4A4393;
+    border: 1px solid #4A4393;
+}
+
+#status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
